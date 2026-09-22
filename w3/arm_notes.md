@@ -164,8 +164,16 @@ Let r1 = 10110
 - add and subtract instructions that use the value of the carry flag  
 - Please google and look about these instructions  
 
+- Example: 64 bit addition using 32 bit registers
+
+@ Add two long values stored in r2,r1 and r4,r3
+adds r5, r1, r3  @ add r1, r3 and set CPSR Register Bits
+adc r6, r2, r4 @ add with carry
 
 ---
+
+
+
 
 
 
